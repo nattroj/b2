@@ -1,0 +1,26 @@
+{
+  "name": "b2",
+  "version": "0.0.1",
+  "description": "easy integration with backblaze b2",
+  "main": "index.js",
+  "author": "nattroj",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel --out-file index.js B2.ts"
+  },
+  "dependencies": {
+    "got": "^11.8.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "dotenv": "^10.0.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4",
+    "uuid": "^8.3.2"
+  }
+}
